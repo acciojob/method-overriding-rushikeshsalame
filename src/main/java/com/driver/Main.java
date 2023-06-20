@@ -13,10 +13,10 @@ public class Main {
         }
     }
     public static void main(String[] args){
-        B b1 = new B();
-        b1.meth();
+        B b = new B();
+        b.meth();
 
-        b b2 = new B();
-        b2.meth();
+        b b1 = new B();
+        b1.meth();
     }
 }
